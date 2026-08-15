@@ -1,0 +1,908 @@
+{
+  "version": 4,
+  "targets": {
+    "netstandard2.1": {
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Editor.ConversionSystem.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Updater.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.Burst.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.Burst.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.Collections.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.Collections.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.InputSystem.ForUI.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.InputSystem.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEditorBridge.ShaderGraph.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEngineBridge.004.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.Mathematics.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.Mathematics.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.Multiplayer.Center.Common.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.Multiplayer.Center.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.PathTracing.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.PathTracing.Runtime.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.PlasticSCM.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Editor.Shared.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Runtime.Shared.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Runtime.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.ShaderLibrary.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.GPUDriven.Runtime.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.2D.Editor.Overrides.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.2D.Runtime.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Config.Runtime.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Runtime.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Shaders.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.Rendering.LightTransport.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.Rider.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.Searcher.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.ShaderGraph.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.SurfaceCache.Runtime.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.TextMeshPro.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.TextMeshPro.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.Timeline.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.Timeline.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.UnifiedRayTracing.Runtime.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Core.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Core.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Flow.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Flow.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.SettingsProvider.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Shared.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.State.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.State.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualStudio.Editor.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.UI.Analytics.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.UI.csproj": "1.0.0",
+          "E:\\Game Projects\\SessionScape\\Client\\UnityEngine.UI.csproj": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assembly-CSharp/1.0.0": {
+      "type": "project",
+      "path": "Assembly-CSharp.csproj",
+      "msbuildProject": "Assembly-CSharp.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "netstandard2.1": [
+      "Assembly-CSharp >= 1.0.0",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Editor.ConversionSystem.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Updater.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.Burst.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.Burst.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.Collections.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.Collections.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.InputSystem.ForUI.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.InputSystem.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEditorBridge.ShaderGraph.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEngineBridge.004.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.Mathematics.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.Mathematics.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.Multiplayer.Center.Common.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.Multiplayer.Center.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.PathTracing.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.PathTracing.Runtime.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.PlasticSCM.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Editor.Shared.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Runtime.Shared.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Runtime.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.ShaderLibrary.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.GPUDriven.Runtime.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.2D.Editor.Overrides.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.2D.Runtime.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Config.Runtime.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Runtime.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Shaders.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.Rendering.LightTransport.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.Rider.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.Searcher.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.ShaderGraph.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.SurfaceCache.Runtime.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.TextMeshPro.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.TextMeshPro.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.Timeline.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.Timeline.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.UnifiedRayTracing.Runtime.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Core.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Core.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Flow.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Flow.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.SettingsProvider.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Shared.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.State.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.State.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualStudio.Editor.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.TestRunner.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.UI.Analytics.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.UI.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\UnityEngine.TestRunner.csproj",
+      "E:\\Game Projects\\SessionScape\\Client\\UnityEngine.UI.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dhbcr\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Game Projects\\SessionScape\\Client\\Assembly-CSharp-Editor.csproj",
+      "projectName": "Assembly-CSharp-Editor",
+      "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Assembly-CSharp-Editor.csproj",
+      "packagesPath": "C:\\Users\\dhbcr\\.nuget\\packages\\",
+      "outputPath": "E:\\Game Projects\\SessionScape\\Client\\Temp\\obj\\Assembly-CSharp-Editor\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dhbcr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "framework": "netstandard2.1",
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "E:\\Game Projects\\SessionScape\\Client\\Assembly-CSharp.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Assembly-CSharp.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Editor.ConversionSystem.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Editor.ConversionSystem.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Updater.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Updater.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.Burst.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.Burst.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.Burst.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.Burst.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.Collections.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.Collections.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.Collections.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.Collections.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.InputSystem.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.InputSystem.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.InputSystem.ForUI.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.InputSystem.ForUI.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEditorBridge.ShaderGraph.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEditorBridge.ShaderGraph.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEngineBridge.004.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEngineBridge.004.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.Mathematics.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.Mathematics.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.Mathematics.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.Mathematics.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.Multiplayer.Center.Common.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.Multiplayer.Center.Common.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.Multiplayer.Center.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.Multiplayer.Center.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.PathTracing.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.PathTracing.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.PathTracing.Runtime.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.PathTracing.Runtime.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.PlasticSCM.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.PlasticSCM.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.Rendering.LightTransport.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.Rendering.LightTransport.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Editor.Shared.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Editor.Shared.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Runtime.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Runtime.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Runtime.Shared.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Runtime.Shared.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.ShaderLibrary.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.ShaderLibrary.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.GPUDriven.Runtime.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.GPUDriven.Runtime.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.2D.Editor.Overrides.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.2D.Editor.Overrides.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.2D.Runtime.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.2D.Runtime.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Config.Runtime.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Config.Runtime.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Runtime.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Runtime.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Shaders.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Shaders.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.Rider.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.Rider.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.Searcher.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.Searcher.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.ShaderGraph.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.ShaderGraph.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.SurfaceCache.Runtime.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.SurfaceCache.Runtime.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.TextMeshPro.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.TextMeshPro.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.TextMeshPro.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.TextMeshPro.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.Timeline.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.Timeline.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.Timeline.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.Timeline.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.UnifiedRayTracing.Runtime.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.UnifiedRayTracing.Runtime.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Core.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Core.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Core.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Core.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Flow.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Flow.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Flow.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Flow.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.SettingsProvider.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.SettingsProvider.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Shared.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Shared.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.State.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.State.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.State.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.State.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualStudio.Editor.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualStudio.Editor.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.TestRunner.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.TestRunner.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.UI.Analytics.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.UI.Analytics.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.UI.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.UI.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\UnityEngine.TestRunner.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\UnityEngine.TestRunner.csproj"
+            },
+            "E:\\Game Projects\\SessionScape\\Client\\UnityEngine.UI.csproj": {
+              "projectPath": "E:\\Game Projects\\SessionScape\\Client\\UnityEngine.UI.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.300"
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "framework": "netstandard2.1",
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Flow.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Flow.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Shaders.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Shaders.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.Rendering.LightTransport.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.Rendering.LightTransport.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\UnityEngine.TestRunner.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\UnityEngine.TestRunner.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.2D.Runtime.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.2D.Runtime.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Runtime.Shared.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Runtime.Shared.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.PlasticSCM.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.PlasticSCM.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Config.Runtime.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Config.Runtime.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Runtime.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Runtime.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.InputSystem.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.InputSystem.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.Timeline.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.Timeline.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.Mathematics.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.Mathematics.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Runtime.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Runtime.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Core.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Core.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEngineBridge.004.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEngineBridge.004.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Flow.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Flow.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\UnityEditor.UI.Analytics.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.UI.Analytics.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.InputSystem.ForUI.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.InputSystem.ForUI.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.PathTracing.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.PathTracing.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEditorBridge.ShaderGraph.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.InternalAPIEditorBridge.ShaderGraph.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.GPUDriven.Runtime.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.GPUDriven.Runtime.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Editor.Shared.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Editor.Shared.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\UnityEditor.UI.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.UI.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.State.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.State.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.ShaderGraph.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.ShaderGraph.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\UnityEditor.TestRunner.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\UnityEditor.TestRunner.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Updater.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Updater.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.Rider.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.Rider.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.Collections.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.Collections.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\UnityEngine.UI.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\UnityEngine.UI.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.TextMeshPro.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.TextMeshPro.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.Collections.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.Collections.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.TextMeshPro.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.TextMeshPro.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.SurfaceCache.Runtime.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.SurfaceCache.Runtime.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.Mathematics.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.Mathematics.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Core.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Core.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.PathTracing.Runtime.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.PathTracing.Runtime.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.ShaderLibrary.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Core.ShaderLibrary.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.Burst.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.Burst.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Editor.ConversionSystem.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Editor.ConversionSystem.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.VisualStudio.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualStudio.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.SettingsProvider.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.SettingsProvider.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.AI.Navigation.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Shared.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.Shared.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.UnifiedRayTracing.Runtime.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.UnifiedRayTracing.Runtime.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.2D.Editor.Overrides.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipelines.Universal.2D.Editor.Overrides.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.Multiplayer.Center.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.Multiplayer.Center.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.State.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.VisualScripting.State.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.Searcher.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.Searcher.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.Timeline.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.Timeline.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.Burst.Editor.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.Burst.Editor.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Game Projects\\SessionScape\\Client\\Unity.Multiplayer.Center.Common.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Game Projects\\SessionScape\\Client\\Unity.Multiplayer.Center.Common.csproj",
+      "targetGraphs": [
+        "netstandard2.1"
+      ]
+    }
+  ]
+}
